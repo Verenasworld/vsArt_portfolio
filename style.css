@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+body {
+    color: #000000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left,#ffffff, #c8a878);
+    width: 100%;
+    height: 100vh;
+}
+a {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #000000;
+    border: 1px solid #000000;
+    text-align: center;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+    z-index: 10;
+    cursor: pointer;
+
+
+}
+a:hover{
+    color: rgb(53, 119, 140);
+    border-radius: 20px;
+}
+
+
+
+.logo{
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.channels {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
