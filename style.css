@@ -42,25 +42,62 @@ a:hover {
 
 
 .logo{
+    position: relative;
     margin-top: 2%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 100%;
-}
-.logo:hover{
-    transform: scale(1.1);
+    transition: 1s ease-in-out;
 }
 
+
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+
+h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
 h2 {
     font-size: 25px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight:bolder;
     letter-spacing: 2px;
-    font-family: Calibri;
+    font-family: Calibri,sans-serif;
 }
 
 .channels {
     display: flex;
     max-width: 500px;
     margin: 0 auto;
+}
+
+@keyframes border {
+    0%{
+        border-top-color: white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50%{
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    70%{
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        border-left-color: transparent;
+    }
+    100%{
+        border-top-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        border-left-color: white;
+    }
 }
 
