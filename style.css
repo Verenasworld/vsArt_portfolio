@@ -3,7 +3,7 @@ html {
     font-size: 100%;
     margin: 0;
     height: auto;
-    overflow: hidden;
+
 }
 
 body {
@@ -30,6 +30,7 @@ a {
 
 
 }
+
 a:hover{
     color: rgb(53, 119, 140);
     border-radius: 20px;
@@ -38,11 +39,10 @@ a:hover{
 
 
 .logo{
-    margin-top: 5%;
+    margin-top: 2%;
     border: 1px solid black;
     border-radius: 100%;
 }
-
 
 h2 {
     font-size: 1rem;
