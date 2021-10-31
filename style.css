@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    font-size: 100%;
     margin: 0;
     height: auto;
 
@@ -11,7 +10,6 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to left,#ffffff, #c8a878);
-    width: 100%;
     height: 100vh;
 }
 a {
@@ -19,7 +17,7 @@ a {
     max-width: 500px;
     margin: 0 auto 15px auto;
     padding: 15px 20px;
-    font-size: 1rem;
+    font-size: 15px;
     color: #000000;
     border: 1px solid #000000;
     text-align: center;
@@ -43,12 +41,16 @@ a:hover {
     border: 1px solid black;
     border-radius: 100%;
 }
+.logo:hover{
+    transform: scale(1.1);
+}
 
 h2 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: 2px;
+    font-family: Calibri;
 }
 
 .channels {
