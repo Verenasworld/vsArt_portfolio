@@ -20,9 +20,10 @@ body{
 }
 
 
-.logo:hover{
+.logo:hover ,.login:active{
     transform: rotate(360deg);
 }
+
 
 a {
     display: block;
